@@ -1,0 +1,25 @@
+This is sample application which shows you how to create a scheduler / cron-job  in Play scala using Akka actors.
+
+Note: Most of the classes which have been used from the scala classes are Java classes. Scala makes it very easy
+by providing easy, clean and short code. But the same thing can be done in java as well using the same approach and
+classes.
+
+------------------------------------------------------------------------------------------------------------------------
+Topics you need to understand:-
+* Google Guice container
+* Akka Actors
+* Play Framework
+
+
+------------------------------------------------------------------------------------------------------------------------
+Note: For making it work in play you need to add the Module class to application.conf. For other frameworks you might
+need to instantiate the JobModule class.
+
+play.modules.enabled += "scala.scheduler.JobModule"
+
+Be careful with the package structure.
+
+
+
+Thanks,
+Cheers!!!
